@@ -8,6 +8,6 @@
 (executable
   (name plugin_lib_re_str)
   (embed_in_plugin_libraries re.str)
-  (flags -linkall)
+  (flags (:standard -linkall))
   (modes (native plugin))
 )
